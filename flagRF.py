@@ -40,6 +40,7 @@ def draw_RedRect():
     pygame.draw.rect(screen, rect_color, rect_point, rect_width)
 
 
+
 draw_flagshtok()
 draw_BlueRect()
 draw_WhiteRect()
