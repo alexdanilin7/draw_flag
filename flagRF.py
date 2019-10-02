@@ -39,11 +39,7 @@ def draw_RedRect():
     rect_point = [(22, 10+2*height_part_flag), (width_flag, height_part_flag)]
     pygame.draw.rect(screen, rect_color, rect_point, rect_width)
 
-def otherRect():
-    rect_color = pygame.Color("green")
-    rect_width = 0
-    rect_point = [(22, 10), (100, 30)]
-    pygame.draw.rect(screen, rect_color, rect_point, rect_width)
+
 
 draw_flagshtok()
 draw_BlueRect()
